@@ -1,0 +1,2 @@
+# ThesisManagementSystem-server
+基于eggjs的论文管理系统服务端
