@@ -101,27 +101,27 @@
     "onerror": {
       "errorPageUrl": "",
       "appErrorFilter": null,
-      "templatePath": "C:\\Users\\Administrator\\Desktop\\server\\node_modules\\egg-onerror\\lib\\onerror_page.mustache"
+      "templatePath": "C:\\Users\\Administrator\\Desktop\\ThesisManagementSystem-server\\node_modules\\egg-onerror\\lib\\onerror_page.mustache"
     },
     "i18n": {
       "defaultLocale": "en_US",
       "dirs": [
-        "C:\\Users\\Administrator\\Desktop\\server\\node_modules\\egg-session\\config\\locales",
-        "C:\\Users\\Administrator\\Desktop\\server\\node_modules\\egg-security\\config\\locales",
-        "C:\\Users\\Administrator\\Desktop\\server\\node_modules\\egg-jsonp\\config\\locales",
-        "C:\\Users\\Administrator\\Desktop\\server\\node_modules\\egg-onerror\\config\\locales",
-        "C:\\Users\\Administrator\\Desktop\\server\\node_modules\\egg-i18n\\config\\locales",
-        "C:\\Users\\Administrator\\Desktop\\server\\node_modules\\egg-watcher\\config\\locales",
-        "C:\\Users\\Administrator\\Desktop\\server\\node_modules\\egg-schedule\\config\\locales",
-        "C:\\Users\\Administrator\\Desktop\\server\\node_modules\\egg-multipart\\config\\locales",
-        "C:\\Users\\Administrator\\Desktop\\server\\node_modules\\egg-development\\config\\locales",
-        "C:\\Users\\Administrator\\Desktop\\server\\node_modules\\egg-logrotator\\config\\locales",
-        "C:\\Users\\Administrator\\Desktop\\server\\node_modules\\egg-static\\config\\locales",
-        "C:\\Users\\Administrator\\Desktop\\server\\node_modules\\egg-view\\config\\locales",
-        "C:\\Users\\Administrator\\Desktop\\server\\node_modules\\egg-mongoose\\config\\locales",
-        "C:\\Users\\Administrator\\Desktop\\server\\node_modules\\egg-jwt\\config\\locales",
-        "C:\\Users\\Administrator\\Desktop\\server\\node_modules\\egg\\config\\locales",
-        "C:\\Users\\Administrator\\Desktop\\server\\config\\locales"
+        "C:\\Users\\Administrator\\Desktop\\ThesisManagementSystem-server\\node_modules\\egg-session\\config\\locales",
+        "C:\\Users\\Administrator\\Desktop\\ThesisManagementSystem-server\\node_modules\\egg-security\\config\\locales",
+        "C:\\Users\\Administrator\\Desktop\\ThesisManagementSystem-server\\node_modules\\egg-jsonp\\config\\locales",
+        "C:\\Users\\Administrator\\Desktop\\ThesisManagementSystem-server\\node_modules\\egg-onerror\\config\\locales",
+        "C:\\Users\\Administrator\\Desktop\\ThesisManagementSystem-server\\node_modules\\egg-i18n\\config\\locales",
+        "C:\\Users\\Administrator\\Desktop\\ThesisManagementSystem-server\\node_modules\\egg-watcher\\config\\locales",
+        "C:\\Users\\Administrator\\Desktop\\ThesisManagementSystem-server\\node_modules\\egg-schedule\\config\\locales",
+        "C:\\Users\\Administrator\\Desktop\\ThesisManagementSystem-server\\node_modules\\egg-multipart\\config\\locales",
+        "C:\\Users\\Administrator\\Desktop\\ThesisManagementSystem-server\\node_modules\\egg-development\\config\\locales",
+        "C:\\Users\\Administrator\\Desktop\\ThesisManagementSystem-server\\node_modules\\egg-logrotator\\config\\locales",
+        "C:\\Users\\Administrator\\Desktop\\ThesisManagementSystem-server\\node_modules\\egg-static\\config\\locales",
+        "C:\\Users\\Administrator\\Desktop\\ThesisManagementSystem-server\\node_modules\\egg-view\\config\\locales",
+        "C:\\Users\\Administrator\\Desktop\\ThesisManagementSystem-server\\node_modules\\egg-mongoose\\config\\locales",
+        "C:\\Users\\Administrator\\Desktop\\ThesisManagementSystem-server\\node_modules\\egg-jwt\\config\\locales",
+        "C:\\Users\\Administrator\\Desktop\\ThesisManagementSystem-server\\node_modules\\egg\\config\\locales",
+        "C:\\Users\\Administrator\\Desktop\\ThesisManagementSystem-server\\config\\locales"
       ],
       "queryField": "locale",
       "cookieField": "locale",
@@ -132,8 +132,8 @@
     "watcher": {
       "type": "development",
       "eventSources": {
-        "default": "C:\\Users\\Administrator\\Desktop\\server\\node_modules\\egg-watcher\\lib\\event-sources\\default",
-        "development": "C:\\Users\\Administrator\\Desktop\\server\\node_modules\\egg-watcher\\lib\\event-sources\\development"
+        "default": "C:\\Users\\Administrator\\Desktop\\ThesisManagementSystem-server\\node_modules\\egg-watcher\\lib\\event-sources\\default",
+        "development": "C:\\Users\\Administrator\\Desktop\\ThesisManagementSystem-server\\node_modules\\egg-watcher\\lib\\event-sources\\development"
       }
     },
     "customLogger": {
@@ -184,14 +184,14 @@
     },
     "static": {
       "prefix": "/public/",
-      "dir": "C:\\Users\\Administrator\\Desktop\\server\\app\\public",
+      "dir": "C:\\Users\\Administrator\\Desktop\\ThesisManagementSystem-server\\app\\public",
       "dynamic": true,
       "preload": false,
       "buffer": false,
       "maxFiles": 1000
     },
     "view": {
-      "root": "C:\\Users\\Administrator\\Desktop\\server\\app\\view",
+      "root": "C:\\Users\\Administrator\\Desktop\\ThesisManagementSystem-server\\app\\view",
       "cache": false,
       "defaultExtension": ".html",
       "defaultViewEngine": "",
@@ -277,9 +277,9 @@
       "author": "",
       "license": "MIT"
     },
-    "baseDir": "C:\\Users\\Administrator\\Desktop\\server",
+    "baseDir": "C:\\Users\\Administrator\\Desktop\\ThesisManagementSystem-server",
     "HOME": "C:\\Users\\Administrator",
-    "rundir": "C:\\Users\\Administrator\\Desktop\\server\\run",
+    "rundir": "C:\\Users\\Administrator\\Desktop\\ThesisManagementSystem-server\\run",
     "dump": {
       "ignore": "<Set>",
       "timing": {
@@ -315,7 +315,7 @@
       "returnRawBody": true
     },
     "logger": {
-      "dir": "C:\\Users\\Administrator\\Desktop\\server\\logs\\server",
+      "dir": "C:\\Users\\Administrator\\Desktop\\ThesisManagementSystem-server\\logs\\server",
       "encoding": "utf8",
       "env": "local",
       "level": "INFO",
@@ -406,8 +406,8 @@
         "jsonp"
       ],
       "env": [],
-      "from": "C:\\Users\\Administrator\\Desktop\\server\\node_modules\\egg\\config\\plugin.js",
-      "path": "C:\\Users\\Administrator\\Desktop\\server\\node_modules\\egg-onerror",
+      "from": "C:\\Users\\Administrator\\Desktop\\ThesisManagementSystem-server\\node_modules\\egg\\config\\plugin.js",
+      "path": "C:\\Users\\Administrator\\Desktop\\ThesisManagementSystem-server\\node_modules\\egg-onerror",
       "version": "2.1.1"
     },
     "session": {
@@ -417,8 +417,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "C:\\Users\\Administrator\\Desktop\\server\\node_modules\\egg\\config\\plugin.js",
-      "path": "C:\\Users\\Administrator\\Desktop\\server\\node_modules\\egg-session",
+      "from": "C:\\Users\\Administrator\\Desktop\\ThesisManagementSystem-server\\node_modules\\egg\\config\\plugin.js",
+      "path": "C:\\Users\\Administrator\\Desktop\\ThesisManagementSystem-server\\node_modules\\egg-session",
       "version": "3.3.0"
     },
     "i18n": {
@@ -428,8 +428,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "C:\\Users\\Administrator\\Desktop\\server\\node_modules\\egg\\config\\plugin.js",
-      "path": "C:\\Users\\Administrator\\Desktop\\server\\node_modules\\egg-i18n",
+      "from": "C:\\Users\\Administrator\\Desktop\\ThesisManagementSystem-server\\node_modules\\egg\\config\\plugin.js",
+      "path": "C:\\Users\\Administrator\\Desktop\\ThesisManagementSystem-server\\node_modules\\egg-i18n",
       "version": "2.1.1"
     },
     "watcher": {
@@ -439,8 +439,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "C:\\Users\\Administrator\\Desktop\\server\\node_modules\\egg\\config\\plugin.js",
-      "path": "C:\\Users\\Administrator\\Desktop\\server\\node_modules\\egg-watcher",
+      "from": "C:\\Users\\Administrator\\Desktop\\ThesisManagementSystem-server\\node_modules\\egg\\config\\plugin.js",
+      "path": "C:\\Users\\Administrator\\Desktop\\ThesisManagementSystem-server\\node_modules\\egg-watcher",
       "version": "3.1.1"
     },
     "multipart": {
@@ -452,8 +452,8 @@
         "schedule"
       ],
       "env": [],
-      "from": "C:\\Users\\Administrator\\Desktop\\server\\node_modules\\egg\\config\\plugin.js",
-      "path": "C:\\Users\\Administrator\\Desktop\\server\\node_modules\\egg-multipart",
+      "from": "C:\\Users\\Administrator\\Desktop\\ThesisManagementSystem-server\\node_modules\\egg\\config\\plugin.js",
+      "path": "C:\\Users\\Administrator\\Desktop\\ThesisManagementSystem-server\\node_modules\\egg-multipart",
       "version": "3.2.0"
     },
     "security": {
@@ -465,8 +465,8 @@
         "session"
       ],
       "env": [],
-      "from": "C:\\Users\\Administrator\\Desktop\\server\\node_modules\\egg\\config\\plugin.js",
-      "path": "C:\\Users\\Administrator\\Desktop\\server\\node_modules\\egg-security",
+      "from": "C:\\Users\\Administrator\\Desktop\\ThesisManagementSystem-server\\node_modules\\egg\\config\\plugin.js",
+      "path": "C:\\Users\\Administrator\\Desktop\\ThesisManagementSystem-server\\node_modules\\egg-security",
       "version": "2.11.0"
     },
     "development": {
@@ -480,8 +480,8 @@
       "env": [
         "local"
       ],
-      "from": "C:\\Users\\Administrator\\Desktop\\server\\node_modules\\egg\\config\\plugin.js",
-      "path": "C:\\Users\\Administrator\\Desktop\\server\\node_modules\\egg-development",
+      "from": "C:\\Users\\Administrator\\Desktop\\ThesisManagementSystem-server\\node_modules\\egg\\config\\plugin.js",
+      "path": "C:\\Users\\Administrator\\Desktop\\ThesisManagementSystem-server\\node_modules\\egg-development",
       "version": "2.7.0"
     },
     "logrotator": {
@@ -493,8 +493,8 @@
       ],
       "optionalDependencies": [],
       "env": [],
-      "from": "C:\\Users\\Administrator\\Desktop\\server\\node_modules\\egg\\config\\plugin.js",
-      "path": "C:\\Users\\Administrator\\Desktop\\server\\node_modules\\egg-logrotator",
+      "from": "C:\\Users\\Administrator\\Desktop\\ThesisManagementSystem-server\\node_modules\\egg\\config\\plugin.js",
+      "path": "C:\\Users\\Administrator\\Desktop\\ThesisManagementSystem-server\\node_modules\\egg-logrotator",
       "version": "3.1.0"
     },
     "schedule": {
@@ -504,8 +504,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "C:\\Users\\Administrator\\Desktop\\server\\node_modules\\egg\\config\\plugin.js",
-      "path": "C:\\Users\\Administrator\\Desktop\\server\\node_modules\\egg-schedule",
+      "from": "C:\\Users\\Administrator\\Desktop\\ThesisManagementSystem-server\\node_modules\\egg\\config\\plugin.js",
+      "path": "C:\\Users\\Administrator\\Desktop\\ThesisManagementSystem-server\\node_modules\\egg-schedule",
       "version": "3.7.0"
     },
     "static": {
@@ -515,8 +515,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "C:\\Users\\Administrator\\Desktop\\server\\node_modules\\egg\\config\\plugin.js",
-      "path": "C:\\Users\\Administrator\\Desktop\\server\\node_modules\\egg-static",
+      "from": "C:\\Users\\Administrator\\Desktop\\ThesisManagementSystem-server\\node_modules\\egg\\config\\plugin.js",
+      "path": "C:\\Users\\Administrator\\Desktop\\ThesisManagementSystem-server\\node_modules\\egg-static",
       "version": "2.2.0"
     },
     "jsonp": {
@@ -528,8 +528,8 @@
         "security"
       ],
       "env": [],
-      "from": "C:\\Users\\Administrator\\Desktop\\server\\node_modules\\egg\\config\\plugin.js",
-      "path": "C:\\Users\\Administrator\\Desktop\\server\\node_modules\\egg-jsonp",
+      "from": "C:\\Users\\Administrator\\Desktop\\ThesisManagementSystem-server\\node_modules\\egg\\config\\plugin.js",
+      "path": "C:\\Users\\Administrator\\Desktop\\ThesisManagementSystem-server\\node_modules\\egg-jsonp",
       "version": "2.0.0"
     },
     "view": {
@@ -539,8 +539,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "C:\\Users\\Administrator\\Desktop\\server\\node_modules\\egg\\config\\plugin.js",
-      "path": "C:\\Users\\Administrator\\Desktop\\server\\node_modules\\egg-view",
+      "from": "C:\\Users\\Administrator\\Desktop\\ThesisManagementSystem-server\\node_modules\\egg\\config\\plugin.js",
+      "path": "C:\\Users\\Administrator\\Desktop\\ThesisManagementSystem-server\\node_modules\\egg-view",
       "version": "2.1.3"
     },
     "mongoose": {
@@ -550,8 +550,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "C:\\Users\\Administrator\\Desktop\\server\\config\\plugin.js",
-      "path": "C:\\Users\\Administrator\\Desktop\\server\\node_modules\\egg-mongoose",
+      "from": "C:\\Users\\Administrator\\Desktop\\ThesisManagementSystem-server\\config\\plugin.js",
+      "path": "C:\\Users\\Administrator\\Desktop\\ThesisManagementSystem-server\\node_modules\\egg-mongoose",
       "version": "3.3.1"
     },
     "jwt": {
@@ -563,14 +563,14 @@
         "onerror"
       ],
       "env": [],
-      "from": "C:\\Users\\Administrator\\Desktop\\server\\config\\plugin.js",
-      "path": "C:\\Users\\Administrator\\Desktop\\server\\node_modules\\egg-jwt",
+      "from": "C:\\Users\\Administrator\\Desktop\\ThesisManagementSystem-server\\config\\plugin.js",
+      "path": "C:\\Users\\Administrator\\Desktop\\ThesisManagementSystem-server\\node_modules\\egg-jwt",
       "version": "3.1.7"
     }
   },
   "appInfo": {
     "name": "server",
-    "baseDir": "C:\\Users\\Administrator\\Desktop\\server",
+    "baseDir": "C:\\Users\\Administrator\\Desktop\\ThesisManagementSystem-server",
     "env": "local",
     "scope": "",
     "HOME": "C:\\Users\\Administrator",
@@ -625,6 +625,6 @@
       "author": "",
       "license": "MIT"
     },
-    "root": "C:\\Users\\Administrator\\Desktop\\server"
+    "root": "C:\\Users\\Administrator\\Desktop\\ThesisManagementSystem-server"
   }
 }

@@ -1,6 +1,12 @@
 # ThesisManagementSystem-server
 基于eggjs的论文管理系统后端
 
+## node version 14.10.0 egg-mongoose 貌似不支持18版本node
+## git push报错
+git config --global --unset https.proxy
+ipconfig/flushdns
+
+
 ## QuickStart
 
 <!-- add docs here for user -->
