@@ -32,8 +32,9 @@ class HomeController extends Controller {
     const body = Object.assign({}, ctx.request.body);
     try {
       const res = await ctx.service.email.sendEmail(body);
+      console.log(res)
       ctx.cookies.set('verifyCode', res, {
-        expires: 600000,
+        expires: 60000,
       });
       ctx.body = {
         code: '0000',
@@ -53,10 +54,10 @@ class HomeController extends Controller {
     const { ctx } = this;
     const body = Object.assign({}, ctx.request.body);
     try {
-      await ctx.service.modifyUser.modify(body);
+      const res = await ctx.service.email.modify(body);
       ctx.body = {
         code: '0000',
-        data: null,
+        data: res,
         msg: '密码修改成功',
       };
     } catch (error) {

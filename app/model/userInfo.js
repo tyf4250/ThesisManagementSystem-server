@@ -12,6 +12,7 @@ module.exports = app => {
     score: { type: Number },
     userIco: { type: String },
     userType: { type: String },
+    email: { type: String }
   });
 
   return mongoose.model('UserInfo', userInfoSchema, 'stu');
